@@ -1,7 +1,7 @@
-Proceso sin_titulo
+Proceso EjemploSiEntonces
 	
 	Definir Numero1 como Entero;
-	Escribir "Escribe un número entero";
+	Escribir "Escribe un nï¿½mero entero";
 	Leer Numero1;
 	Escribir "La resta de ", Numero1, " entre 2 es ", Numero1%2;
 	Escribir "Es par?";
