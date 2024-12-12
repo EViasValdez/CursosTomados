@@ -2,12 +2,12 @@ Proceso Operadores
 	Definir A, B como Enteros;
 	A <- 5;
 	
-	Escribir A+5;
-	Escribir A-5;
-	Escribir A*5;
-	Escribir A/5;
-	Escribir A^5;
-	Escribir A%5;
+	Escribir A + 5;
+	Escribir A - 5;
+	Escribir A * 5;
+	Escribir A / 5;
+	Escribir A ^ 5;
+	Escribir A % 5;
 	
 	B <- 2;
 	
