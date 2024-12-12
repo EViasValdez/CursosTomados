@@ -11,6 +11,6 @@ Proceso Operadores
 	
 	B <- 2;
 	
-	Escribir A*5+10/B;
-	Escribir 2*A^2+10*A+B;
+	Escribir A * 5 + 10 / B;
+	Escribir 2 * A ^ 2 + 10 * A + B;
 FinProceso
