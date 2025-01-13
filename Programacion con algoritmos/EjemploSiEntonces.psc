@@ -1,5 +1,4 @@
 Proceso EjemploSiEntonces
-	
 	Definir Numero1 como Entero;
 	Escribir "Escribe un n�mero entero";
 	Leer Numero1;
@@ -15,5 +14,4 @@ Proceso EjemploSiEntonces
 	Si Numero1%2 <> 0 Entonces
 		Escribir Numero1, ' es impar';
 	FinSi
-	
 FinProceso
