@@ -12,7 +12,6 @@ Proceso EjemploParaExtendido
 				Escribir Sin Saltar '   ';	
 			FinSi
 		FinPara
-		
 		Escribir '';
 		
 	FinPara
