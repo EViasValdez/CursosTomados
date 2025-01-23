@@ -5,8 +5,8 @@ using namespace std;
 
 int main()
 {
-	float num1 = 48;
-	float num2 = 48;
-	cout << num1 + num2 << endl;
+	float Num1 = 48;
+	float Num2 = 48;
+	cout << Num1 + Num2 << endl;
 	getch();
 }
