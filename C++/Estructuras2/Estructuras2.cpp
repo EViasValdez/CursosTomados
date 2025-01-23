@@ -8,6 +8,7 @@ int main ()
 	{
 		int Clave;
 		int Tipo;
+		
 	} UPTecamac, UPTexcoco;
 	
 	UPTecamac.Clave = 56754;
