@@ -1,6 +1,5 @@
 // Realmente los arreglos se pasan por referencia de forma impl�cita
 Subproceso Inicializar(Personas)
-	
 	Personas[0,0]<-'76571673Y';
 	Personas[0,1]<-'Juan P�rez';
 	Personas[0,2]<-'56';
@@ -12,7 +11,6 @@ Subproceso Inicializar(Personas)
 	Personas[2,0]<-'39383736J';
 	Personas[2,1]<-'Miguel Hern�ndez';
 	Personas[2,2]<-'84';
-	
 FinSubProceso
 
 Subproceso Consultar(Personas, Filas)
@@ -57,5 +55,4 @@ Proceso ProcesoPrincipal
 		Escribir 'Persona encontrada: ';
 		Escribir Personas[Encontrado,0],' - ' Personas[Encontrado,1],' - ',Personas[Encontrado,2] ' a�os';
 	FinSi
-	
 FinProceso

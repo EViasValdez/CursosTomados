@@ -54,5 +54,4 @@ Proceso OrdenPorBurbujaBidireccional
 	MostrarArreglo(ListaNumeros, N_ELEMENTOS);
 	OrdenarPorBurbujaBidireccional(ListaNumeros, N_ELEMENTOS);
 	MostrarArreglo(ListaNumeros, N_ELEMENTOS);
-	
 FinProceso

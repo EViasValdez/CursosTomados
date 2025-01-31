@@ -1,5 +1,4 @@
 Proceso BusquedaSecuencialEjemplo
-	
 	Definir ArregloDeEnteros como Entero;
 	Definir NumeroUsuario como Entero;
 	Definir Encontrado como Logico;
@@ -29,5 +28,4 @@ Proceso BusquedaSecuencialEjemplo
 	Si Encontrado = FALSO Entonces
 		Escribir 'No se ha encontrado el numero ',NumeroUsuario, ' en el ArregloDeEnteros';
 	FinSi
-	
 FinProceso

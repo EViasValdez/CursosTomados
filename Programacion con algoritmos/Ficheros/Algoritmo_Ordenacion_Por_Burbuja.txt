@@ -40,5 +40,4 @@ Proceso OrdenPorBurbuja
 	MostrarArreglo(ListaNumeros, N_ELEMENTOS);
 	OrdenarPorBurbuja(ListaNumeros, N_ELEMENTOS);
 	MostrarArreglo(ListaNumeros, N_ELEMENTOS);
-	
 FinProceso

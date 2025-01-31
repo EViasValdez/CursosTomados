@@ -29,7 +29,6 @@ Subproceso OrdenarPorSeleccion(Arreglo por Referencia, Nelementos)
 	FinPara
 FinSubProceso
 
-
 SubProceso MostrarArreglo(Arreglo, Nelementos)
 	Definir i como Numerico;
 	Para i<-0 hasta Nelementos-1 Hacer
@@ -49,5 +48,4 @@ Proceso OrdenPorSeleccion
 	MostrarArreglo(ListaNumeros, N_ELEMENTOS);
 	OrdenarPorSeleccion(ListaNumeros, N_ELEMENTOS);
 	MostrarArreglo(ListaNumeros, N_ELEMENTOS);
-	
 FinProceso

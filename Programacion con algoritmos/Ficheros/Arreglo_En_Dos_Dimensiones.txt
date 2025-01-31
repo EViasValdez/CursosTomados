@@ -1,5 +1,4 @@
 Proceso ArregloEnDosDimensiones
-	
 	Definir ArregloDosDimensiones como Numerico;
 	Dimension ArregloDosDimensiones[2,4];
 	
