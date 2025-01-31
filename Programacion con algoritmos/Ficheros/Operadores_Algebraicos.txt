@@ -1,5 +1,4 @@
 Proceso Operadores
-	
 	Definir A, B como Enteros;
 	A <- 5;
 	
@@ -14,5 +13,4 @@ Proceso Operadores
 	
 	Escribir A*5+10/B;
 	Escribir 2*A^2+10*A+B;
-	
 FinProceso

@@ -1,5 +1,4 @@
 Proceso Operadores
-	
 	Definir A, B como Enteros;
 	A <- 5;
 	B <- 2;
@@ -13,5 +12,4 @@ Proceso Operadores
 	
 	Escribir VERDADERO = VERDADERO;
 	Escribir FALSO <> VERDADERO;
-	
 FinProceso

@@ -1,5 +1,4 @@
 Proceso OperadoresLogicos
-
 	Definir A, B como Logicos;
 	
 	A <- VERDADERO;
@@ -15,5 +14,4 @@ Proceso OperadoresLogicos
 	Escribir NO A Y NO B;
 	
 	Escribir NO A O NO B;
-	
 FinProceso

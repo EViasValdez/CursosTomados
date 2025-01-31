@@ -23,5 +23,4 @@ Proceso ArregloEnDosDimensiones
 		FinPara
 		Escribir '';
 	FinPara
-	
 FinProceso

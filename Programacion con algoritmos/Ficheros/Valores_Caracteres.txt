@@ -1,5 +1,4 @@
 Proceso CaracteresANumeros
-
 	Escribir  ConvertirANumero(' ');
 	Escribir  ConvertirANumero('A');
 	Escribir  ConvertirANumero('a');
@@ -8,5 +7,4 @@ Proceso CaracteresANumeros
 	Escribir  ConvertirANumero('~');
 	Escribir  ConvertirANumero('�');
 	Escribir  ConvertirANumero('�');
-	
 FinProceso
