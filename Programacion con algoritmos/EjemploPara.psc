@@ -10,6 +10,5 @@ Proceso EjemploPara
 		FinPara
 		
 		Escribir '';
-		
 	FinPara
 FinProceso
