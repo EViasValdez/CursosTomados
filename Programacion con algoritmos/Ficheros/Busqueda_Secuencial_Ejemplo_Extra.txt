@@ -1,16 +1,16 @@
-// Realmente los arreglos se pasan por referencia de forma implícita
+// Realmente los arreglos se pasan por referencia de forma implï¿½cita
 Subproceso Inicializar(Personas)
 	
 	Personas[0,0]<-'76571673Y';
-	Personas[0,1]<-'Juan Pérez';
+	Personas[0,1]<-'Juan Pï¿½rez';
 	Personas[0,2]<-'56';
 	
 	Personas[1,0]<-'59184731M';
-	Personas[1,1]<-'María García';
+	Personas[1,1]<-'Marï¿½a Garcï¿½a';
 	Personas[1,2]<-'22';
 	
 	Personas[2,0]<-'39383736J';
-	Personas[2,1]<-'Miguel Hernández';
+	Personas[2,1]<-'Miguel Hernï¿½ndez';
 	Personas[2,2]<-'84';
 	
 FinSubProceso
@@ -18,11 +18,11 @@ FinSubProceso
 Subproceso Consultar(Personas, Filas)
 	Definir i Como Entero;
 	Para i<-0 hasta Filas-1 Hacer
-		Escribir Personas[i,0],' - ' Personas[i,1],' - ',Personas[i,2] ' años';
+		Escribir Personas[i,0],' - ' Personas[i,1],' - ',Personas[i,2] ' aï¿½os';
 	FinPara
 FinSubProceso
 
-// De izquierda a derecha si se encuentra se devuelve el número de la posición sino -1
+// De izquierda a derecha si se encuentra se devuelve el nï¿½mero de la posiciï¿½n sino -1
 SubProceso Encontrado<-Buscar_Por_DNI(DNI, Personas, Filas)
 	Definir i,Encontrado Como Entero;
 	Encontrado <- 1;
@@ -45,17 +45,17 @@ Proceso ProcesoPrincipal
 	// Llamamos a una funcion que le asigne unos valores de ejemplo
 	Inicializar(Personas);
 	
-	// La función consultar nos muestra todo el contenido del arreglo
+	// La funciï¿½n consultar nos muestra todo el contenido del arreglo
 	Consultar(Personas, Filas);
 	
-	// La función Buscar_Por_DNI devuelve el índice dónde se encuentra el DNI
+	// La funciï¿½n Buscar_Por_DNI devuelve el ï¿½ndice dï¿½nde se encuentra el DNI
 	// Si no se encuentra el DNI en el arreglo, se devuelve -1
 	Encontrado<-Buscar_Por_DNI('39383736J', Personas, Filas);
 	
 	// Si Encontrado es diferente de -1 mostramos los datos de la persona encontrada
 	Si Encontrado<> -1 Entonces	
 		Escribir 'Persona encontrada: ';
-		Escribir Personas[Encontrado,0],' - ' Personas[Encontrado,1],' - ',Personas[Encontrado,2] ' años';
+		Escribir Personas[Encontrado,0],' - ' Personas[Encontrado,1],' - ',Personas[Encontrado,2] ' aï¿½os';
 	FinSi
 	
 FinProceso

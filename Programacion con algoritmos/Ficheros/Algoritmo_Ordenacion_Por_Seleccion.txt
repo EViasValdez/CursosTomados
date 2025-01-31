@@ -12,13 +12,13 @@ Subproceso OrdenarPorSeleccion(Arreglo por Referencia, Nelementos)
 	Definir i,j, min como Numericos;
 	// Para que ordenara todas las posiciones una a una
 	Para i<-0 hasta Nelementos-1 hacer
-		// En min guardamos la posicion donde encontramos el elemento mínimo en cada pasada interior
+		// En min guardamos la posicion donde encontramos el elemento mï¿½nimo en cada pasada interior
 		// La primera posicion de min es la posicion actual del para exterior
 		min <- i ;
 		// El para interior va desde el elemento actual hasta el final
 		Para j<-i hasta Nelementos-1 hacer
 			// Si el valor de la posicion j es menor que el de la posicion min
-			// guardamos su posición en la variable min, ya que ahi está el valor mínimo
+			// guardamos su posiciï¿½n en la variable min, ya que ahi estï¿½ el valor mï¿½nimo
 			Si Arreglo[j] < Arreglo[min] entonces
 				min <- j;
 			FinSi

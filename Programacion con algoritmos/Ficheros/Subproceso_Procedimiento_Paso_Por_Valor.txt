@@ -1,7 +1,7 @@
 SubProceso Saludar(maximo)
 	Definir i como Entero;
 	Para i<-0 hasta maximo-1
-		Escribir '¡Hola Mundo!';
+		Escribir 'ï¿½Hola Mundo!';
 	FinPara
 FinSubProceso
 

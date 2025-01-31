@@ -1,6 +1,6 @@
 SubProceso Saludar()
 	Definir i como Cadena;
-	i <- '¡Hola Mundo!';
+	i <- 'ï¿½Hola Mundo!';
 	Escribir i;
 FinSubProceso
 

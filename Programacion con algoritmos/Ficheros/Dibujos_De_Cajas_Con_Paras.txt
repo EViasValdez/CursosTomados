@@ -1,5 +1,5 @@
 Subproceso DibujarCajon(b,h)
-	Escribir "Cajón ", b , "*", h;
+	Escribir "Cajï¿½n ", b , "*", h;
 	Para i<-0 hasta b-1
 		Para j<-0 hasta h-1
 			Escribir Sin Saltar '* ';

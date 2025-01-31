@@ -2,19 +2,19 @@ Proceso sin_titulo
 	Definir NumeroA, NumeroB como Numericos;
 	Definir Operacion como Caracter;
 	
-	Escribir Sin Saltar "Escribe el número A";
+	Escribir Sin Saltar "Escribe el nï¿½mero A";
 	Leer NumeroA;
 	
-	Escribir Sin Saltar "Escribe el número B";
+	Escribir Sin Saltar "Escribe el nï¿½mero B";
 	Leer NumeroB;
 	
 	Escribir "Operaciones Disponibles";
 	Escribir "S: Suma";
 	Escribir "R: Resta";
-	Escribir "M: Multiplicación";
+	Escribir "M: Multiplicaciï¿½n";
 	
-	Escribir Sin Saltar "¿Qué operación queres ejecutar?";
-	Escribir Sin Saltar "Escribe la letra en mayúscula o mínuscula";
+	Escribir Sin Saltar "ï¿½Quï¿½ operaciï¿½n queres ejecutar?";
+	Escribir Sin Saltar "Escribe la letra en mayï¿½scula o mï¿½nuscula";
 	
 	Leer Operacion;
 	
@@ -31,11 +31,11 @@ Proceso sin_titulo
 			Escribir NumeroA-NumeroB;
 		'M','m':
 			// aqui la multiplicacion
-			Escribir "Has elegido la multiplicación";
+			Escribir "Has elegido la multiplicaciï¿½n";
 			Escribir NumeroA, '*', NumeroB;
 			Escribir NumeroA*NumeroB;
 		De Otro Modo:
-			Escribir "No has elegido la operación correcta";
+			Escribir "No has elegido la operaciï¿½n correcta";
 	FinSegun
 	
 FinProceso

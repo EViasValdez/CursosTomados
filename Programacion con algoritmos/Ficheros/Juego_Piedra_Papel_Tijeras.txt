@@ -48,7 +48,7 @@ SubProceso JugarUnaRonda(puntos_j1 Por Referencia, puntos_pc Por Referencia, ron
 	// Comprobar el resultado
 	// Si empate
 	Si (tirada_pc = tirada_j1) Entonces
-		Escribir "¡Empate!";
+		Escribir "ï¿½Empate!";
 	// Si no hay empate uno de los ha ganado
 	Sino
 		Si ( (tirada_j1 = 1 Y tirada_pc = 3) O (tirada_j1=2 Y tirada_pc = 1) O (tirada_j1=3 Y tirada_pc = 2) )
@@ -80,7 +80,7 @@ Proceso PiedraPapelTijeras
 		
 		// Iniciar el marcador a cero
 		// Iniciar las rondas a cero
-		// Y también limpiamos la pantalla
+		// Y tambiï¿½n limpiamos la pantalla
 		puntos_j1 = 0;
 		puntos_pc = 0;
 		ronda = 0;

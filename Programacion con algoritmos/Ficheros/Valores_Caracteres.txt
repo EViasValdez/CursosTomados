@@ -6,7 +6,7 @@ Proceso CaracteresANumeros
 	Escribir  ConvertirANumero('Z');
 	Escribir  ConvertirANumero('z');
 	Escribir  ConvertirANumero('~');
-	Escribir  ConvertirANumero('á');
-	Escribir  ConvertirANumero('ñ');
+	Escribir  ConvertirANumero('ï¿½');
+	Escribir  ConvertirANumero('ï¿½');
 	
 FinProceso

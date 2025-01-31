@@ -1,3 +1,3 @@
 Proceso HolaMundo
-	Escribir '¡Hola Mundo!';
+	Escribir 'ï¿½Hola Mundo!';
 FinProceso

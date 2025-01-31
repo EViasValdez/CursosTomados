@@ -12,7 +12,7 @@ Subproceso OrdenarPorInsercion(Arreglo por Referencia, Nelementos)
 	
 	// Recorremos cada elemento
 	Para i<-0 hasta Nelementos-1 Hacer
-		// j empezará en i porque iremos comprobando hacia la izquierda los valores
+		// j empezarï¿½ en i porque iremos comprobando hacia la izquierda los valores
 		j <- i;
 		// mientras j sea mayor que 0 y a su vez se cumpla que
 		// el numero de la izquierda (j-1) sea mayor que el de la derecha (j)
@@ -21,7 +21,7 @@ Subproceso OrdenarPorInsercion(Arreglo por Referencia, Nelementos)
 			// Intercambiamos el valor actual con el anterior
 			IntercambiarValores(Arreglo,j,j-1);
 			// Decrementamos j 1 para indicar que hemos hecho el intercambio
-			// y ahora vamos una posición más a la izquierda
+			// y ahora vamos una posiciï¿½n mï¿½s a la izquierda
 			j <- j - 1;
 		FinMientras
 	FinPara
