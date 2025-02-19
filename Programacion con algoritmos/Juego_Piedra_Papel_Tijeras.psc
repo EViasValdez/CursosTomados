@@ -98,7 +98,6 @@ Proceso PiedraPapelTijeras
 		Sino
 			Escribir "Has perdido. ", puntos_j1, ' - ', puntos_pc;
 		FinSi
-		
 		// Preguntaremos si el usuario
 		// quiere volver a jugar
 		Escribir "Quieres salir?";
@@ -107,6 +106,5 @@ Proceso PiedraPapelTijeras
 		Si (respuesta <> 1) Entonces
 			salir <- VERDADERO;
 		FinSi
-		
 	FinMientras
 FinProceso
