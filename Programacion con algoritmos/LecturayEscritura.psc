@@ -24,6 +24,5 @@ Proceso DefinicionAsignacion
 	Escribir 'La nota es ', Nota;
 	Escribir 'La letra de dni es ', LetraDNI;
 	Escribir 'El nombre y apellido es ', NombreYApellido;
-	
 	Escribir NombreYapellido, ' ha sacado un ', Nota; 
 FinProceso

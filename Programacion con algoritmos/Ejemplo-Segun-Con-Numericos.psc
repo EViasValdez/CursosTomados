@@ -36,5 +36,4 @@ Proceso sin_titulo
 		De Otro Modo:
 			Escribir "No has elegido la operaci?n correcta";
 	FinSegun
-	
 FinProceso
