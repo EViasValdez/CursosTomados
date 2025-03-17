@@ -8,7 +8,7 @@ FinSubProceso
 Subproceso OrdenarPorBurbuja(Arreglo por Referencia, Nelementos)
 	Definir i como Numerico;
 	Definir intercambiados como Logico;
-	Repetir 
+	Repetir
 		intercambiados <- FALSO;
 		// Recorremos los valores del arreglo
 		Para i<-1 hasta Nelementos-1 hacer

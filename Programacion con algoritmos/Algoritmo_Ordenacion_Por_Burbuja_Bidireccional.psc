@@ -8,7 +8,7 @@ FinSubProceso
 Subproceso OrdenarPorBurbujaBidireccional(Arreglo por Referencia, Nelementos)
 	Definir i como Numerico;
 	Definir intercambiados como Logico;
-	Repetir 
+	Repetir
 		intercambiados <- FALSO;
 		// Recorremos los valores del arreglo
 		// de izquierda a derecha de 1 en 1
