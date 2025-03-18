@@ -4,13 +4,11 @@ SubProceso Doblar(num Por Referencia)
 	num <- num * 2;
 FinSubProceso
 
-
 // Triple es una funci?n que toma una variable num?rica
 // por valor y devuelve el triple de su valor como resultado
 Subproceso num <- Triple(num)
 	num <- num * 3;
 FinSubProceso
-
 
 // Proceso Principal
 Proceso Principal

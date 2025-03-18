@@ -1,8 +1,8 @@
 Subproceso IntercambiarValores(Arreglo por Referencia, pos1, pos2)
 	Definir temporal como Numerico;
 	temporal <- Arreglo[pos1];
-	Arreglo[pos1]<-Arreglo[pos2];
-	Arreglo[pos2]<-temporal;	
+	Arreglo[pos1] <- Arreglo[pos2];
+	Arreglo[pos2] <- temporal;	
 FinSubProceso
 
 Subproceso OrdenarPorSeleccion(Arreglo por Referencia, Nelementos)
@@ -31,7 +31,7 @@ FinSubProceso
 
 SubProceso MostrarArreglo(Arreglo, Nelementos)
 	Definir i como Numerico;
-	Para i<-0 hasta Nelementos-1 Hacer
+	Para i <- 0 hasta Nelementos-1 Hacer
 		Escribir Sin Saltar Arreglo[i], ' ';
 	FinPara
 	Escribir '';
@@ -41,7 +41,7 @@ Proceso OrdenPorSeleccion
 	Definir ListaNumeros, N_ELEMENTOS como Enteros;
 	N_ELEMENTOS <- 10;
 	Dimension ListaNumeros[N_ELEMENTOS];
-	Para i<-0 hasta N_ELEMENTOS-1 Hacer
+	Para i <-0 hasta N_ELEMENTOS-1 Hacer
 		ListaNumeros[i] <- azar(100);
 	FinPara
 	

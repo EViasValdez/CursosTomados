@@ -8,7 +8,6 @@ Subproceso DibujarCajon(b,h)
 	FinPara
 FinSubProceso
 
-
 Proceso Dibujos
 	DibujarCajon(1,1);	
 	DibujarCajon(2,4);	

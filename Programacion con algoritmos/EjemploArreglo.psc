@@ -1,5 +1,4 @@
 Proceso EjemploArreglo
-	
 	// Definicion de un arreglo
 	Definir ArregloDeNumeros Como Numerico;
 	Dimension ArregloDeNumeros[10];	
@@ -32,5 +31,4 @@ Proceso EjemploArreglo
 	Para i<-0 hasta 9
 		Escribir 'ArregloDeNumeros[',i,'] -> ', ArregloDeNumeros[i];
 	FinPara
-	
 FinProceso
