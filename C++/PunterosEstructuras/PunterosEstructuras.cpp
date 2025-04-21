@@ -4,7 +4,8 @@ using namespace std;
 struct Estructura
 {
 	int Dato;
-} Estrct, *Puntero;
+}
+Estrct, *Puntero;
 
 int main ()
 {
