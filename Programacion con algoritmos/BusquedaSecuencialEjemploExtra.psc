@@ -1,4 +1,4 @@
-// Realmente los arreglos se pasan por referencia de forma impl?cita
+// Realmente los arreglos se pasan por referencia de forma implicita.
 Subproceso Inicializar(Personas)
 	Personas[0,0]<-'76571673Y';
 	Personas[0,1]<-'Juan P?rez';
@@ -25,7 +25,7 @@ SubProceso Encontrado<-Buscar_Por_DNI(DNI, Personas, Filas)
 	Definir i,Encontrado Como Entero;
 	Encontrado <- 1;
 	Para i<-0 hasta Filas-1 Hacer
-		Si Personas[i,0]=DNI Entonces
+		Si Personas[i,0] = DNI Entonces
 			Encontrado<-i;
 		FinSi
 	FinPara
@@ -43,10 +43,10 @@ Proceso ProcesoPrincipal
 	// Llamamos a una funcion que le asigne unos valores de ejemplo
 	Inicializar(Personas);
 	
-	// La funci?n consultar nos muestra todo el contenido del arreglo
+	// La funcion consultar nos muestra todo el contenido del arreglo
 	Consultar(Personas, Filas);
 	
-	// La funci?n Buscar_Por_DNI devuelve el ?ndice d?nde se encuentra el DNI
+	// La funcion Buscar_Por_DNI devuelve el indice donde se encuentra el DNI
 	// Si no se encuentra el DNI en el arreglo, se devuelve -1
 	Encontrado<-Buscar_Por_DNI('39383736J', Personas, Filas);
 	

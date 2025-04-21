@@ -5,7 +5,7 @@ Subproceso IntercambiarValores(Arreglo por Referencia, pos1, pos2)
 	Arreglo[pos2]<-temporal;	
 FinSubProceso
 
-Subproceso OrdenarPorInsercion(Arreglo por Referencia, Nelementos)
+Subproceso OrdenarporInsercion(Arreglo por Referencia, Nelementos)
 	// i para recorrer todos los elementos del arreglo
 	// j para recorrer todos los elementos desde i hasta 0
 	Definir i,j como Numericos;
@@ -35,7 +35,7 @@ SubProceso MostrarArreglo(Arreglo, Nelementos)
 	Escribir '';
 FinSubProceso
 
-Proceso OrdenPorInsercion
+Proceso OrdenporInsercion
 	Definir ListaNumeros, N_ELEMENTOS como Enteros;
 	N_ELEMENTOS <- 10;
 	Dimension ListaNumeros[N_ELEMENTOS];
@@ -44,6 +44,6 @@ Proceso OrdenPorInsercion
 	FinPara
 	
 	MostrarArreglo(ListaNumeros, N_ELEMENTOS);
-	OrdenarPorInsercion(ListaNumeros, N_ELEMENTOS);
+	OrdenarporInsercion(ListaNumeros, N_ELEMENTOS);
 	MostrarArreglo(ListaNumeros, N_ELEMENTOS);
 FinProceso

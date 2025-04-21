@@ -5,7 +5,7 @@ Subproceso IntercambiarValores(Arreglo por Referencia, pos1, pos2)
 	Arreglo[pos2]<-temporal;	
 FinSubProceso
 
-Subproceso OrdenarPorBurbujaBidireccional(Arreglo por Referencia, Nelementos)
+Subproceso OrdenarporBurbujaBidireccional(Arreglo por Referencia, Nelementos)
 	Definir i como Numerico;
 	Definir intercambiados como Logico;
 	Repetir
@@ -43,7 +43,7 @@ SubProceso MostrarArreglo(Arreglo, Nelementos)
 	Escribir '';
 FinSubProceso
 
-Proceso OrdenPorBurbujaBidireccional
+Proceso OrdenporBurbujaBidireccional
 	Definir ListaNumeros, N_ELEMENTOS como Enteros;
 	N_ELEMENTOS <- 10;
 	Dimension ListaNumeros[N_ELEMENTOS];
@@ -52,6 +52,6 @@ Proceso OrdenPorBurbujaBidireccional
 	FinPara
 	
 	MostrarArreglo(ListaNumeros, N_ELEMENTOS);
-	OrdenarPorBurbujaBidireccional(ListaNumeros, N_ELEMENTOS);
+	OrdenarporBurbujaBidireccional(ListaNumeros, N_ELEMENTOS);
 	MostrarArreglo(ListaNumeros, N_ELEMENTOS);
 FinProceso

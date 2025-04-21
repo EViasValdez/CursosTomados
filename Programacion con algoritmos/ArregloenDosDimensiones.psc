@@ -15,8 +15,7 @@ Proceso ArregloEnDosDimensiones
 	ArregloDosDimensiones[1,2] <- 30;
 	ArregloDosDimensiones[1,3] <- 40;
 	
-	// Recorrer secuencialmente el arreglo 2D y mostrar sus valores
-	// Para cada dimension haremos un para con su contador
+	// Recorrer secuencialmente el arreglo 2D y mostrar sus valores Para cada dimension haremos un para con su contador.
 	Para i<-0 hasta 1
 		Para j<-0 hasta 3
 			Escribir Sin Saltar ArregloDosDimensiones[i,j], ' ';

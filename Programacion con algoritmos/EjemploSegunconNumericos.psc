@@ -19,17 +19,17 @@ Proceso sin_titulo
 	
 	Segun Operacion Hacer
 		1:
-			// aqui la suma
+			// Aqui la suma
 			Escribir "Has elegido la suma";
 			Escribir NumeroA, '+', NumeroB;
 			Escribir NumeroA+NumeroB;
 		2:
-			// aqui la resta
+			// Aqui la resta
 			Escribir "Has elegido la resta";
 			Escribir NumeroA, '-', NumeroB;
 			Escribir NumeroA-NumeroB;
 		3:
-			// aqui la multiplicacion
+			// Aqui la multiplicacion
 			Escribir "Has elegido la multiplicaci?n";
 			Escribir NumeroA, '*', NumeroB;
 			Escribir NumeroA*NumeroB;

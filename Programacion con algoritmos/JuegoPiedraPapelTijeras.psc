@@ -4,20 +4,20 @@ SubProceso DibujarJugada(tirada_j1, tirada_pc)
 	// TIJERA ES 3
 	
 	Segun tirada_j1 Hacer
-		1: 
+		1:
 			Escribir Sin Saltar "TU: PIEDRA - ";
-		2: 
+		2:
 			Escribir Sin Saltar "TU: PAPEL - ";
-		3: 
+		3:
 			Escribir Sin Saltar "TU: TIJERAS - ";
 	FinSegun
 	
 	Segun tirada_pc Hacer
-		1: 
+		1:
 			Escribir "PC: PIEDRA";
-		2: 
+		2:
 			Escribir "PC: PAPEL";
-		3: 
+		3:
 			Escribir "PC: TIJERAS";
 	FinSegun
 FinSubProceso

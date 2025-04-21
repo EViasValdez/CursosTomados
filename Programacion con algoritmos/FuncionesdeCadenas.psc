@@ -3,13 +3,13 @@ Proceso EjerciciosConCadenas
 	//Escribir SubCadena('Hola Mundo!',0,3);
 	//Escribir SubCadena('Hola Mundo!',5,9);
 	//Escribir Concatenar('Hola', ' Mundo!');
-	//Escribir ConvertirANumero('Hola Mundo!');
-	//Escribir ConvertirANumero('10')+10.5;
+	//Escribir ConvertiraNumero('Hola Mundo!');
+	//Escribir ConvertiraNumero('10')+10.5;
 	
 	//Definir CadenaPrueba como Cadena;
-	//CadenaPrueba <- 'Hola '+ConvertirATexto(10);  
+	//CadenaPrueba <- 'Hola '+ Convertir a Texto(10);  
 	//Escribir CadenaPrueba;
-	//ConvertirATexto(numero)
+	//Convertir a Texto(numero)
 	
 	//Escribir Mayusculas('hola mundo');
 	//Escribir Mayusculas(Minusculas(Mayusculas('hola mundo')));

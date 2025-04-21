@@ -5,7 +5,7 @@ Subproceso IntercambiarValores(Arreglo por Referencia, pos1, pos2)
 	Arreglo[pos2] <- temporal;	
 FinSubProceso
 
-Subproceso OrdenarPorSeleccion(Arreglo por Referencia, Nelementos)
+Subproceso OrdenarporSeleccion(Arreglo por Referencia, Nelementos)
 	// i para recorrer el bucle que guarda la posicion actual a ordenar
 	// j para recorrer todas las posiciones a la derecha de la que toca ordenar
 	// min para guardar la posicion del menor valor encontrado
@@ -46,6 +46,6 @@ Proceso OrdenPorSeleccion
 	FinPara
 	
 	MostrarArreglo(ListaNumeros, N_ELEMENTOS);
-	OrdenarPorSeleccion(ListaNumeros, N_ELEMENTOS);
+	OrdenarporSeleccion(ListaNumeros, N_ELEMENTOS);
 	MostrarArreglo(ListaNumeros, N_ELEMENTOS);
 FinProceso

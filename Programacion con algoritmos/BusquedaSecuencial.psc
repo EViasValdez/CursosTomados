@@ -1,31 +1,31 @@
 Proceso BusquedaSecuencialEjemplo
-	Definir ArregloDeEnteros como Entero;
+	Definir ArreglodeEnteros como Entero;
 	Definir NumeroUsuario como Entero;
 	Definir Encontrado como Logico;
 	
 	Encontrado <- FALSO;
 	
-	Dimension ArregloDeEnteros[5];
+	Dimension ArreglodeEnteros[5];
 	
 	Para i<-0 hasta 4
-		ArregloDeEnteros[i] <- azar(20)+1;
+		ArreglodeEnteros[i] <- azar(20)+1;
 	FinPara
 	
 	Para i<-0 hasta 4
-		Escribir Sin Saltar ArregloDeEnteros[i], ' ';
+		Escribir Sin Saltar ArreglodeEnteros[i], ' ';
 	FinPara
 	Escribir '';
 	Escribir 'Introduce uno de los n?meros que hay en el arreglo';
 	Leer NumeroUsuario;
 	
 	Para i<-0 hasta 4
-		Si NumeroUsuario = ArregloDeEnteros[i] Entonces
-			Escribir 'Se ha encontrado el numero ',NumeroUsuario, ' en la posicion ArregloDeEnteros[',i,']';
+		Si NumeroUsuario = ArreglodeEnteros[i] Entonces
+			Escribir 'Se ha encontrado el numero ',NumeroUsuario, ' en la posicion ArreglodeEnteros[',i,']';
 			Encontrado <- VERDADERO;
 		FinSi
 	FinPara
 	
 	Si Encontrado = FALSO Entonces
-		Escribir 'No se ha encontrado el numero ',NumeroUsuario, ' en el ArregloDeEnteros';
+		Escribir 'No se ha encontrado el numero ',NumeroUsuario, ' en el ArreglodeEnteros';
 	FinSi
 FinProceso
