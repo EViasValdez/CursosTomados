@@ -1,0 +1,1 @@
+CREATE INDEX "IndiceNacionalidad" ON Empleados (Nacionalidad);
