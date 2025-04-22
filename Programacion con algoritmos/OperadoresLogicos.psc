@@ -8,10 +8,7 @@ Proceso OperadoresLogicos
 	//Escribir NO B;
 	
 	Escribir A Y B;
-	
 	Escribir A O B;
-	
 	Escribir NO A Y NO B;
-	
 	Escribir NO A O NO B;
 FinProceso
