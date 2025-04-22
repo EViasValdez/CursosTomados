@@ -3,10 +3,10 @@
 
 using namespace std;
 
-bool variable = true;
+bool Variable = true;
 
 int main()
 {
-	cout << variable << "\n \n" << endl;
+	cout << Variable << "\n \n" << endl;
 	system("PAUSE");
 }
