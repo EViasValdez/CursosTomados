@@ -1,12 +1,10 @@
 #define sumar(a,b) a + b
 #define multiplicar (a,b) a * b
 #define dividir (a,b) a / b
-
 #include <iostream>
 
 int Numero1 = 10;
 int Numero2 = 10;
-
 int SM;
 int MT;
 int DV;

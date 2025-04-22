@@ -8,7 +8,8 @@ int main ()
 	{
 		int Edad;
 		int Telefono;
-	} Eduardo;
+	}
+	Eduardo;
 	
 	Eduardo.Edad = 23;
 	Eduardo.Telefono = 3123;

@@ -17,7 +17,8 @@ int main ()
 	{
 		cout << i << endl;
 		i++;
-	} while (i <= 1000);
+	}
+	while (i <= 1000);
 	*/
 	
 	cin.get();

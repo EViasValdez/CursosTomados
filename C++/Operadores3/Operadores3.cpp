@@ -3,7 +3,6 @@
 using namespace std;
 
 bool Comprobador;
-
 int Numero1, Numero2, Numero3, Numero4;
 
 int main ()

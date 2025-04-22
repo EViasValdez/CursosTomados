@@ -2,7 +2,6 @@
 
 int Numero1 = 14;
 int Numero2 = 14;
-
 int Suma;
 
 using namespace std;

@@ -25,11 +25,12 @@ int main (int argc, char *argv[]) {
 			{
 				cout << "Calificacion no valida";
 			}
-			else {
+			else
+			{
 				if (Calificacion <= 0 || Calificacion > 10)
 				{
 					cout << "Calificacion no valida";
-				} 
+				}
 			}
 		}
 	}
