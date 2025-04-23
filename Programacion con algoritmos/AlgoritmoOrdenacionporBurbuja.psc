@@ -7,18 +7,18 @@ FinSubProceso
 
 Subproceso OrdenarporBurbuja(Arreglo por Referencia, Nelementos)
 	Definir i como Numerico;
-	Definir intercambiados como Logico;
+	Definir Intercambiados como Logico;
 	Repetir
-		intercambiados <- FALSO;
+		Intercambiados <- FALSO;
 		// Recorremos los valores del arreglo
 		Para i<-1 hasta Nelementos-1 hacer
 			// Si el numero actual y el numero anterior estan desordenados
 			Si Arreglo[i-1] > Arreglo[i] Entonces
 				IntercambiarValores(Arreglo, i-1, i);
-				intercambiados <- VERDADERO;
+				Intercambiados <- VERDADERO;
 			FinSi
 		FinPara
-	Hasta Que (intercambiados = FALSO)
+	Hasta Que (Intercambiados = FALSO)
 FinSubProceso
 
 SubProceso MostrarArreglo(Arreglo, Nelementos)
