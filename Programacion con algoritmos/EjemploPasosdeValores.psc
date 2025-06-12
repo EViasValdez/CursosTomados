@@ -1,4 +1,4 @@
-// Doblar es un procedimiento que toma una variable num?rica
+// Doblar es un procedimiento que toma una variable numerica
 // por referencia y le duplica el valor modificando la propia variable.
 SubProceso Doblar(num Por Referencia)
 	num <- num * 2;

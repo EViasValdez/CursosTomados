@@ -1,19 +1,19 @@
 Proceso DefinicionAsignacion
-	// Definicion
+	// Definicion.
 	Definir Edad, Edad2, Edad3 como Entero;
 	Definir Nota como Real;
 	Definir LetraDNI Como Caracter;
 	Definir NombreyApellido como Cadena;
 	Definir Encontrado Como Logico;
 	
-	// Asignacion
+	// Asignacion.
 	Nota <- 9.5;
 	Edad <- 10;
 	LetraDNI <- 'J';
 	NombreyApellido <- 'Hector Costa';
 	Encontrado <- FALSO;
 	
-	// Lectura Y Escritura
+	// Lectura Y Escritura.
 	Escribir 'Introduce la nota';	
 	Leer Nota;
 	Escribir 'Introduce la letra de dni';

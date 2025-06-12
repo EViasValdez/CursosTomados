@@ -1,18 +1,18 @@
 Proceso EjemploArreglo
-	// Definicion de un arreglo
+	// Definicion de un arreglo.
 	Definir ArreglodeNumeros Como Numerico;
 	Dimension ArreglodeNumeros[10];	
 	
-	// Asignacion manual
+	// Asignacion manual.
 	ArreglodeNumeros[0]<-10;
 	ArreglodeNumeros[1]<-45;
 	ArreglodeNumeros[2]<-36;
 	
-	// Lectura por teclado
+	// Lectura por teclado.
 	Leer ArreglodeNumeros[3];
 	Leer ArreglodeNumeros[4];
 	
-	// Las posiciones de la 5 a la 9 estan vacias
+	// Las posiciones de la 5 a la 9 estan vacias.
 	
 	// Escritura por pantalla manual
 	Escribir 'ArreglodeNumeros[0] -> ', ArreglodeNumeros[0];
@@ -27,7 +27,7 @@ Proceso EjemploArreglo
 	Escribir 'ArreglodeNumeros[9] -> ', ArreglodeNumeros[9];
 	Escribir '';
 	
-	// Escritura por pantalla secuencial
+	// Escritura por pantalla secuencial.
 	Para i<-0 hasta 9
 		Escribir 'ArreglodeNumeros[',i,'] -> ', ArreglodeNumeros[i];
 	FinPara

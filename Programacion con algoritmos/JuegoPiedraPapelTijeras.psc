@@ -23,10 +23,10 @@ SubProceso DibujarJugada(tirada_j1, tirada_pc)
 FinSubProceso
 
 SubProceso JugarUnaRonda(puntos_j1 Por Referencia, puntos_pc Por Referencia, ronda Por Referencia)
-	//Declaramos variables
-	// PIEDRA ES 1
-	// PAPEL ES 2
-	// TIJERA ES 3
+	// Declaramos variables.
+	// PIEDRA ES 1.
+	// PAPEL ES 2.
+	// TIJERA ES 3.
 	Definir tirada_j1, tirada_pc como Entero;
 	ronda = ronda + 1;
 	

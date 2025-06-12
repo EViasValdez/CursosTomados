@@ -10,6 +10,6 @@ Proceso sin_titulo
 	// 0 + 0 < 15 * 0 + 10 O 0 >= 24
 	// 0 < 0 + 10 O 0 >= 24
 	// 0 < 10 O 0 >= 24
-	// VERDADERO O FALSO
-	// VERDADERO
+	// VERDADERO O FALSO.
+	// VERDADERO.
 FinProceso

@@ -7,7 +7,7 @@ Proceso ParaConDiferentesSaltos
 	Escribir "";
 	Escribir "";
 	
-	// Podemos especificar un salto de 2 en 2
+	// Podemos especificar un salto de 2 en 2.
 	Escribir "Para de 0 a 19 de 2 en 2";
 	Para i<-0 hasta 19 Con Paso 2
 		Escribir Sin Saltar i, " ";
@@ -15,7 +15,7 @@ Proceso ParaConDiferentesSaltos
 	Escribir "";
 	Escribir "";
 	
-	// O de otro n?mero
+	// O de otro numero.
 	Escribir "Para de 0 a 49 de 5 en 5";
 	Para i<-0 hasta 49 Con Paso 5
 		Escribir Sin Saltar i, " ";

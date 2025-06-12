@@ -5,7 +5,7 @@ SubProceso Contador(i)
 	Si i > 1 Entonces
 		Contador(i);
 	Sino
-		Escribir 'IGNICI?N!!!!';
+		Escribir 'IGNICION!!!!';
 	FinSi
 FinSubProceso
 

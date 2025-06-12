@@ -1,4 +1,4 @@
-Proceso sin_titulo
+Proceso EjemploSegun
 	Definir NumeroA, NumeroB como Numericos;
 	Definir Operacion como Caracter;
 	

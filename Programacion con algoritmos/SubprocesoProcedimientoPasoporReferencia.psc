@@ -1,9 +1,8 @@
 SubProceso Saludar(otra_variable Por Referencia)
 	Para i<-0 hasta otra_variable-1
-		Escribir '?Hola Mundo!';
+		Escribir '¡Hola Mundo!';
 	FinPara
-	// modificamos una variable del proceso 
-	// principal desde el subproceso
+	// Modificamos una variable del proceso principal desde el subproceso.
 	otra_variable <- 999;
 FinSubProceso
 
