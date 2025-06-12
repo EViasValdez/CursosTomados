@@ -5,13 +5,13 @@ Subproceso IntercambiarValores(Arreglo por Referencia, pos1, pos2)
 	Arreglo[pos2]<-temporal;	
 FinSubProceso
 
-Subproceso OrdenarporInsercion(Arreglo por Referencia, Nelementos)
+Subproceso OrdenarporInsercion(Arreglo por Referencia, NElementos)
 	// i para recorrer todos los elementos del arreglo
 	// j para recorrer todos los elementos desde i hasta 0
 	Definir i,j como Numericos;
 	
-	// Recorremos cada elemento
-	Para i<-0 hasta Nelementos-1 Hacer
+	// Recorremos cada elemento.
+	Para i<-0 hasta NElementos-1 Hacer
 		// j empezar? en i porque iremos comprobando hacia la izquierda los valores
 		j <- i;
 		// mientras j sea mayor que 0 y a su vez se cumpla que
@@ -27,9 +27,9 @@ Subproceso OrdenarporInsercion(Arreglo por Referencia, Nelementos)
 	FinPara
 FinSubProceso
 
-SubProceso MostrarArreglo(Arreglo, Nelementos)
+SubProceso MostrarArreglo(Arreglo, NElementos)
 	Definir i como Numerico;
-	Para i<-0 hasta Nelementos-1 Hacer
+	Para i<-0 hasta NElementos-1 Hacer
 		Escribir Sin Saltar Arreglo[i], ' ';
 	FinPara
 	Escribir '';

@@ -37,20 +37,20 @@ Proceso ProcesoPrincipal
 	Filas<-3; 
 	Columnas<-3;
 	
-	// Creamos un arreglo multidimensional
+	// Creamos un arreglo multidimensional.
 	Dimension Personas[Filas,Columnas];
 	
-	// Llamamos a una funcion que le asigne unos valores de ejemplo
+	// Llamamos a una funcion que le asigne unos valores de ejemplo.
 	Inicializar(Personas);
 	
-	// La funcion consultar nos muestra todo el contenido del arreglo
+	// La funcion consultar nos muestra todo el contenido del arreglo.
 	Consultar(Personas, Filas);
 	
 	// La funcion Buscar_Por_DNI devuelve el indice donde se encuentra el DNI
-	// Si no se encuentra el DNI en el arreglo, se devuelve -1
+	// Si no se encuentra el DNI en el arreglo, se devuelve -1.
 	Encontrado<-Buscar_Por_DNI('39383736J', Personas, Filas);
 	
-	// Si Encontrado es diferente de -1 mostramos los datos de la persona encontrada
+	// Si Encontrado es diferente de -1 mostramos los datos de la persona encontrada.
 	Si Encontrado<> -1 Entonces	
 		Escribir 'Persona encontrada: ';
 		Escribir Personas[Encontrado,0],' - ' Personas[Encontrado,1],' - ',Personas[Encontrado,2] ' a?os';

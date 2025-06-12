@@ -3,7 +3,7 @@ Proceso EjemploArreglo
 	Definir ArreglodeNumeros Como Numerico;
 	Dimension ArreglodeNumeros[10];	
 	
-	// Asignaci?n manual
+	// Asignacion manual
 	ArreglodeNumeros[0]<-10;
 	ArreglodeNumeros[1]<-45;
 	ArreglodeNumeros[2]<-36;
@@ -12,7 +12,7 @@ Proceso EjemploArreglo
 	Leer ArreglodeNumeros[3];
 	Leer ArreglodeNumeros[4];
 	
-	// Las posiciones de la 5 a la 9 estan vac?as
+	// Las posiciones de la 5 a la 9 estan vacias
 	
 	// Escritura por pantalla manual
 	Escribir 'ArreglodeNumeros[0] -> ', ArreglodeNumeros[0];

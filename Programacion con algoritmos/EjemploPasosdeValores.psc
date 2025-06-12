@@ -1,16 +1,16 @@
 // Doblar es un procedimiento que toma una variable num?rica
-// por referencia y le duplica el valor modificando la propia variable
+// por referencia y le duplica el valor modificando la propia variable.
 SubProceso Doblar(num Por Referencia)
 	num <- num * 2;
 FinSubProceso
 
 // Triple es una funcion que toma una variable numerica
-// por valor y devuelve el triple de su valor como resultado
+// por valor y devuelve el triple de su valor como resultado.
 Subproceso num <- Triple(num)
 	num <- num * 3;
 FinSubProceso
 
-// Proceso Principal
+// Proceso Principal.
 Proceso Principal
 	Definir n como Numerico;
 	n <- 1;
@@ -27,7 +27,7 @@ Proceso Principal
 	Escribir n;
 	Doblar(n);
 	
-	// ?Cuanto vale n en este momento? (n*2*2*2*2*2)
+	// ¿Cuanto vale n en este momento? (n*2*2*2*2*2)
 	Escribir n;
 	
 	Escribir "Triple de n=",n;

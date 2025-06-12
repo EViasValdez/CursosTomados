@@ -5,15 +5,15 @@ Subproceso IntercambiarValores(Arreglo por Referencia, pos1, pos2)
 	Arreglo[pos2]<-temporal;	
 FinSubProceso
 
-Subproceso OrdenarporBurbujaBidireccional(Arreglo por Referencia, Nelementos)
+Subproceso OrdenarporBurbujaBidireccional(Arreglo por Referencia, NElementos)
 	Definir i como Numerico;
 	Definir intercambiados como Logico;
 	Repetir
 		intercambiados <- FALSO;
 		// Recorremos los valores del arreglo
 		// de izquierda a derecha de 1 en 1
-		// dejando el mayor a la derecha del todo
-		Para i<-1 hasta Nelementos-1 hacer
+		// dejando el mayor a la derecha del todo.
+		Para i<-1 hasta NElementos-1 hacer
 			// Si el numero actual y el numero anterior estan desordenados
 			Si Arreglo[i-1] > Arreglo[i] Entonces
 				IntercambiarValores(Arreglo, i-1, i);
@@ -23,8 +23,8 @@ Subproceso OrdenarporBurbujaBidireccional(Arreglo por Referencia, Nelementos)
 		
 		// Recorremos los valores del arreglo
 		// de derecha a izquierda de 1 en 1
-		// dejando el menor a la izquierda del todo
-		Para i<-Nelementos-1 hasta 1 hacer
+		// dejando el menor a la izquierda del todo.
+		Para i<-NElementos-1 hasta 1 hacer
 			// Si el numero actual y el numero anterior estan desordenados
 			Si Arreglo[i-1] > Arreglo[i] Entonces
 				IntercambiarValores(Arreglo, i-1, i);
@@ -35,9 +35,9 @@ Subproceso OrdenarporBurbujaBidireccional(Arreglo por Referencia, Nelementos)
 	Hasta Que (intercambiados = FALSO)
 FinSubProceso
 
-SubProceso MostrarArreglo(Arreglo, Nelementos)
+SubProceso MostrarArreglo(Arreglo, NElementos)
 	Definir i como Numerico;
-	Para i<-0 hasta Nelementos-1 Hacer
+	Para i<-0 hasta NElementos-1 Hacer
 		Escribir Sin Saltar Arreglo[i], ' ';
 	FinPara
 	Escribir '';
