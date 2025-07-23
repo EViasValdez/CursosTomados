@@ -6,5 +6,4 @@ ALTER PROCEDURE "PrimerStoredProcedure"
 				ALTER TABLE CategoriaGenero ADD DescripcionGenero VARCHAR(10);
 			END
 	GO
-
 EXEC PrimerStoredProcedure 1
