@@ -10,22 +10,20 @@ Subproceso OrdenarporBurbujaBidireccional(Arreglo por Referencia, NElementos)
 	Definir intercambiados como Logico;
 	Repetir
 		intercambiados <- FALSO;
-		// Recorremos los valores del arreglo
-		// de izquierda a derecha de 1 en 1
+		// Recorremos los valores del arreglo de izquierda a derecha de 1 en 1
 		// dejando el mayor a la derecha del todo.
 		Para i<-1 hasta NElementos-1 hacer
-			// Si el numero actual y el numero anterior estan desordenados
+			// Si el numero actual y el numero anterior estan desordenados.
 			Si Arreglo[i-1] > Arreglo[i] Entonces
 				IntercambiarValores(Arreglo, i-1, i);
 				intercambiados <- VERDADERO;
 			FinSi
 		FinPara
 		
-		// Recorremos los valores del arreglo
-		// de derecha a izquierda de 1 en 1
+		// Recorremos los valores del arreglo de derecha a izquierda de 1 en 1
 		// dejando el menor a la izquierda del todo.
 		Para i<-NElementos-1 hasta 1 hacer
-			// Si el numero actual y el numero anterior estan desordenados
+			// Si el numero actual y el numero anterior estan desordenados.
 			Si Arreglo[i-1] > Arreglo[i] Entonces
 				IntercambiarValores(Arreglo, i-1, i);
 				intercambiados <- VERDADERO;

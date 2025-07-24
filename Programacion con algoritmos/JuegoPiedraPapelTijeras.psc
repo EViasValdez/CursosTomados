@@ -65,14 +65,13 @@ SubProceso JugarUnaRonda(puntos_j1 Por Referencia, puntos_pc Por Referencia, ron
 FinSubProceso
 
 Proceso PiedraPapelTijeras
-	// Definir las variables
+	// Definir las variables.
 	Definir salir como Logico;
 	Definir puntos_j1, puntos_pc, ronda, respuesta como Enteros;
 
 	salir <- FALSO;
 	
-	// Entraremos en el bucle de juego
-	// hasta que el usuario quiera salirse
+	// Entraremos en el bucle de juego hasta que el usuario quiera salirse.
 	Mientras (salir = FALSO)
 		
 		// Iniciar el marcador a cero
