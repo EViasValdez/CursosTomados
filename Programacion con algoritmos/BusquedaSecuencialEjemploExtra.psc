@@ -1,26 +1,26 @@
 // Realmente los arreglos se pasan por referencia de forma implicita.
 Subproceso Inicializar(Personas)
 	Personas[0,0] <- '76571673Y';
-	Personas[0,1] <- 'Juan P?rez';
+	Personas[0,1] <- 'Juan Perez';
 	Personas[0,2] <- '56';
 	
 	Personas[1,0] <- '59184731M';
-	Personas[1,1] <- 'Mar?a Garc?a';
+	Personas[1,1] <- 'Maria Garcia';
 	Personas[1,2] <- '22';
 	
 	Personas[2,0] <- '39383736J';
-	Personas[2,1] <- 'Miguel Hern?ndez';
+	Personas[2,1] <- 'Miguel Hernandez';
 	Personas[2,2] <- '84';
 FinSubProceso
 
 Subproceso Consultar(Personas, Filas)
 	Definir i Como Entero;
 	Para i<-0 hasta Filas-1 Hacer
-		Escribir Personas[i,0],' - ' Personas[i,1],' - ',Personas[i,2] ' años';
+		Escribir Personas[i,0],' - ' Personas[i,1], ' - ',Personas[i,2] ' años';
 	FinPara
 FinSubProceso
 
-// De izquierda a derecha si se encuentra se devuelve el numero de la posicion sino -1
+// De izquierda a derecha si se encuentra se devuelve el numero de la posicion sino -1.
 SubProceso Encontrado<-Buscar_Por_DNI(DNI, Personas, Filas)
 	Definir i,Encontrado Como Entero;
 	Encontrado <- 1;
