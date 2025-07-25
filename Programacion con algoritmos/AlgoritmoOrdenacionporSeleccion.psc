@@ -8,14 +8,14 @@ FinSubProceso
 Subproceso OrdenarporSeleccion(Arreglo por Referencia, NElementos)
 	// i para recorrer el bucle que guarda la posicion actual a ordenar
 	// j para recorrer todas las posiciones a la derecha de la que toca ordenar
-	// min para guardar la posicion del menor valor encontrado
+	// min para guardar la posicion del menor valor encontrado.
 	Definir i,j, min como Numericos;
 	// Para que ordenara todas las posiciones una a una
 	Para i<-0 hasta NElementos-1 hacer
 		// En min guardamos la posicion donde encontramos el elemento m?nimo en cada pasada interior
 		// La primera posicion de min es la posicion actual del para exterior
 		min <- i ;
-		// El para interior va desde el elemento actual hasta el final
+		// El para interior va desde el elemento actual hasta el final.
 		Para j<-i hasta NElementos-1 hacer
 			// Si el valor de la posicion j es menor que el de la posicion min
 			// guardamos su posici?n en la variable min, ya que ahi est? el valor m?nimo
@@ -24,7 +24,7 @@ Subproceso OrdenarporSeleccion(Arreglo por Referencia, NElementos)
 			FinSi
 		FinPara
 		// Finalmente tendremos en el para exterior la posicion actual que toca ordenar -> i
-		// y en min la posicion con el valor minimo que hemos encontrado y que toca intercambiar
+		// y en min la posicion con el valor minimo que hemos encontrado y que toca intercambiar.
 		IntercambiarValores(Arreglo, i, min);
 	FinPara
 FinSubProceso
