@@ -2,13 +2,13 @@ Subproceso IntercambiarValores(Arreglo por Referencia, pos1, pos2)
 	Definir temporal como Numerico;
 	temporal <- Arreglo[pos1];
 	Arreglo[pos1]<-Arreglo[pos2];
-	Arreglo[pos2]<-temporal;	
+	Arreglo[pos2]<-temporal;
 FinSubProceso
 
 Subproceso OrdenarporInsercion(Arreglo por Referencia, NElementos)
 	// i para recorrer todos los elementos del arreglo
-	// j para recorrer todos los elementos desde i hasta 0
-	Definir i,j como Numericos;
+	// j para recorrer todos los elementos desde i hasta 0.
+	Definir i, j como Numericos;
 	
 	// Recorremos cada elemento.
 	Para i<-0 hasta NElementos-1 Hacer
