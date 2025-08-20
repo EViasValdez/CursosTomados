@@ -4,8 +4,8 @@ Proceso OperadoresLogicos
 	A <- VERDADERO;
 	B <- FALSO;
 	
-	//Escribir NO A;
-	//Escribir NO B;
+	// Escribir NO A;
+	// Escribir NO B;
 	
 	Escribir A Y B;
 	Escribir A O B;
