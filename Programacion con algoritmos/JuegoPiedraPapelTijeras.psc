@@ -99,7 +99,7 @@ Proceso PiedraPapelTijeras
 		FinSi
 		// Preguntaremos si el usuario
 		// quiere volver a jugar
-		Escribir "Quieres salir?";
+		Escribir "¿Quieres salir?";
 		Escribir "ENTER para salir o 1) Volver a jugar";
 		Leer respuesta;
 		Si (respuesta <> 1) Entonces
