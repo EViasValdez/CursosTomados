@@ -29,7 +29,6 @@ Subproceso OrdenarporBurbujaBidireccional(Arreglo por Referencia, NElementos)
 				intercambiados <- VERDADERO;
 			FinSi
 		FinPara
-		
 	Hasta Que (intercambiados = FALSO)
 FinSubProceso
 
