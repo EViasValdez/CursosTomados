@@ -1,4 +1,4 @@
-# Cursos Tomados
+# Cursos tomados
 
 <!----Notas---->
 <!----Separador de las notas---->
