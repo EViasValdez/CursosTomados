@@ -15,7 +15,7 @@ Proceso BusquedaSecuencialEjemplo
 		Escribir Sin Saltar ArreglodeEnteros[i], ' ';
 	FinPara
 	Escribir '';
-	Escribir 'Introduce uno de los n?meros que hay en el arreglo';
+	Escribir 'Introduce uno de los numeros que hay en el arreglo';
 	Leer NumeroUsuario;
 	
 	Para i<-0 hasta 4
