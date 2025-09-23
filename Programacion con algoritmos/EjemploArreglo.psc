@@ -12,7 +12,7 @@ Proceso EjemploArreglo
 	Leer ArreglodeNumeros[3];
 	Leer ArreglodeNumeros[4];
 	
-	// Las posiciones de la 5 a la 9 estan vacias.
+	// Las posiciones de la 5 a la 9 están vacías.
 	
 	// Escritura por pantalla manual
 	Escribir 'ArreglodeNumeros[0] -> ', ArreglodeNumeros[0];

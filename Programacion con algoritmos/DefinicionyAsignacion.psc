@@ -6,7 +6,7 @@ Proceso DefinicionAsignacion
 	Definir NombreyApellido como Cadena;
 	Definir Encontrado Como Logico;
 	
-	// Asignacion.
+	// Asignación.
 	Nota <- 9.5;
 	Edad <- 10;
 	LetraDNI <- 'J';

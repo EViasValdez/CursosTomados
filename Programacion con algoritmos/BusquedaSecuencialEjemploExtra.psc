@@ -1,4 +1,4 @@
-// Realmente los arreglos se pasan por referencia de forma implicita.
+// Realmente los arreglos se pasan por referencia de forma implícita.
 Subproceso Inicializar(Personas)
 	Personas[0,0] <- '76571673Y';
 	Personas[0,1] <- 'Juan Perez';
@@ -20,7 +20,7 @@ Subproceso Consultar(Personas, Filas)
 	FinPara
 FinSubProceso
 
-// De izquierda a derecha si se encuentra se devuelve el numero de la posicion sino -1.
+// De izquierda a derecha si se encuentra se devuelve el numero de la posición sino -1.
 SubProceso Encontrado<-Buscar_Por_DNI(DNI, Personas, Filas)
 	Definir i,Encontrado Como Entero;
 	Encontrado <- 1;
