@@ -3,7 +3,7 @@ Proceso EjemploSiEntonces
 	Escribir "Escribe un numero entero";
 	Leer Numero1;
 	Escribir "La resta de ", Numero1, " entre 2 es ", Numero1 % 2;
-	Escribir "Es par?";
+	Escribir "¿Es par?";
 	
 	// Escribir Numero1 % 2 = 0;
 	
