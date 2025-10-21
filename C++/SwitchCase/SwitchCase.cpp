@@ -6,25 +6,25 @@ int main ()
 {
 	char a;
 	
-	cout << "Escribe una opcion" << endl;
+	cout << "Escribe una opción" << endl;
 	cin >> a;
 	
 	switch(a)
 	{
 		case 'a':
-			cout << "Esta es la opcion A \n" << endl;
+			cout << "Esta es la opción A \n" << endl;
 		break;
 		case 'b':
-			cout << "Esta es la opcion B \n" << endl;
+			cout << "Esta es la opción B \n" << endl;
 		break;
 		case 'c':
-		cout << "Esta es la opcion C \n" << endl;
+		cout << "Esta es la opción C \n" << endl;
 			break;
 		case 'd':
-			cout << "Esta es la opcion D \n" << endl;
+			cout << "Esta es la opción D \n" << endl;
 		break;
 		default:
-			cout << "No se eligio ninguna opcion valida \n" << endl;
+			cout << "No se eligió ninguna opción valida \n" << endl;
 	}
 	
 	system("pause");
