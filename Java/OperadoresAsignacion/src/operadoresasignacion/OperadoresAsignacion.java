@@ -28,7 +28,7 @@ public class OperadoresAsignacion {
         B = B - 2;
         System.out.println(B);
         
-        // Multiplicacion
+        // Multiplicación
         int C = 18;
         // C *= 2;
         C = C * 2;

@@ -15,7 +15,7 @@ public class OpeadoresLogicos {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println(20>8 && 20<8);
-        System.out.println(20>8 || 20<8);
+        System.out.println(20 > 8 && 20 < 8);
+        System.out.println(20 > 8 || 20 < 8);
     }
 }

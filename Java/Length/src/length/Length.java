@@ -15,6 +15,6 @@ public class Length {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println(20>10 && 10<11);
+        System.out.println(20 > 10 && 10 < 11);
     }
 }

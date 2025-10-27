@@ -24,7 +24,7 @@ public class Operadores {
         System.out.println("Resta");
         System.out.println(Numero1 - Numero2);
         
-        System.out.println("Multiplicacion");
+        System.out.println("Multiplicación");
         System.out.println(Numero1 * Numero2);
         
         System.out.println("Division");
