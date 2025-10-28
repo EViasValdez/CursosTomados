@@ -19,7 +19,7 @@ int main()
 	
 	cout << "El total de la suma es: " << SM << endl;
 	cout << "El total de la resta es: " << MT << endl;
-	cout << "El total de la multiplicacion es: " << DV << endl;
+	cout << "El total de la multiplicación es: " << DV << endl;
 	
 	cin.get();
 	return 0;
