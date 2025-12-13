@@ -8,7 +8,7 @@ using namespace std;
 
 void Funcion()
 {
-	cout << "Funcion sin valor de retorno" << endl;
+	cout << "Función sin valor de retorno" << endl;
 }
 
 int Sumar(int a, int b)
