@@ -10,10 +10,10 @@ Proceso sin_titulo
 	Escribir "Operaciones Disponibles";
 	Escribir "1: Suma";
 	Escribir "2: Resta";
-	Escribir "3: Multiplicacion";
+	Escribir "3: Multiplicación";
 	
-	Escribir Sin Saltar "?Que operaci?n queres ejecutar?";
-	Escribir Sin Saltar "Escribe la letra en mayuscula o minuscula";
+	Escribir Sin Saltar "¿Que operación quieres ejecutar?";
+	Escribir Sin Saltar "Escribe la letra en mayúscula o minúscula";
 	
 	Leer Operacion;
 	
@@ -30,10 +30,10 @@ Proceso sin_titulo
 			Escribir NumeroA - NumeroB;
 		3:
 			// Aqui la multiplicacion
-			Escribir "Has elegido la multiplicacion";
+			Escribir "Has elegido la multiplicación";
 			Escribir NumeroA, '*', NumeroB;
 			Escribir NumeroA * NumeroB;
 		De Otro Modo:
-			Escribir "No has elegido la operacion correcta";
+			Escribir "No has elegido la operación correcta";
 	FinSegun
 FinProceso
