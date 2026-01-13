@@ -1,7 +1,7 @@
 SubProceso DibujarJugada(tirada_j1, tirada_pc)
-	// PIEDRA ES 1
-	// PAPEL ES 2
-	// TIJERA ES 3
+	// PIEDRA ES 1.
+	// PAPEL ES 2.
+	// TIJERA ES 3.
 	
 	Segun tirada_j1 Hacer
 		1:
@@ -32,7 +32,7 @@ SubProceso JugarUnaRonda(puntos_j1 Por Referencia, puntos_pc Por Referencia, ron
 	
 	// Turno del jugador
 	Escribir "Que quieres jugar?";
-	Escribir "1)Piedra   2)Papel   3) Tijera";
+	Escribir "1) Piedra   2) Papel   3) Tijera";
 	Repetir
 		Leer tirada_j1;
 	Hasta Que (tirada_j1=1 O tirada_j1=2 O tirada_j1=3)
