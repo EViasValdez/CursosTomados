@@ -1,5 +1,9 @@
 # Cursos tomados
 
+<!----Descripción---->
+Esta es una lista de cursos tomados durante todo este tiempo.
+<!----Separador de la descripción ---->
+
 <!----Notas---->
 **Notas:**
 
