@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.15.1/dist/cdn.min.js"></script>
+    <title>Eventos</title>
+</head>
+<body x-data="{}">
+    Texto de ejemplo
+    <button x-on:click="console.log('Botón pulsado')">Botón</button>
+    <button @click="console.log('Segundo botón pulsado')">Botón</button>
+
+    <input @keyup.enter="console.log('Segundo botón pulsado')">
+    <from @submit.prevent="..."></from>
+</body>
+</html>

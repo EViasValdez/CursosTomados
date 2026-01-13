@@ -1,7 +1,7 @@
 # Cursos tomados
 
 <!----Descripción---->
-Esta es una lista de cursos tomados durante todo este tiempo.
+Esta es una lista de cursos tomados durante todo este tiempo, algunos de ellos los tome cuando estaba en la universidad, otros los tengo como método de fortalecimiento de conocimientos.
 <!----Separador de la descripción ---->
 
 <!----Notas---->
