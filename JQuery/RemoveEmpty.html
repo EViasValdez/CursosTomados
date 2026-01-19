@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#Boton").click(function(){
+                $("#Contenedor").empty();
+            });
+        });
+    </script>
+    <style>
+        .Contenedor {
+            position: absolute;
+            background: rgb(170, 187, 204);
+            left: 0px;
+            top: 30px;
+            width: 60px;
+            height: 60px;
+            margin: 5px;
+        }
+    </style>
+    <title>Remove</title>
+</head>
+<body>
+    <div id="Contenedor">
+        <h1>Aquí tenemos un elemento que esta dentro del contenedor</h1>
+        <p>También esta el segundo elemento dentro del contenedor</p>
+        <p>Cuando el botón sea pulsado el contenedor junto con sus elementos serán eliminados</b>
+        <button id="Go">Empezar</button>
+    </div>
+    <button id="Boton">Eliminar con Remove</button>
+</body>
+</html>

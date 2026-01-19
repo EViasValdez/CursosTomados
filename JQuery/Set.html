@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#Go").click(function(){
+                $("#Texto").text("El contenido de la carpeta ha sido cambiado")
+            });
+        });
+    </script>
+    <style>
+        .Con1 {
+            position: absolute;
+            background: rgb(170, 187, 204);
+            left: 0px;
+            top: 30px;
+            width: 60px;
+            height: 60px;
+            margin: 5px;
+        }
+    </style>
+    <title>Set Texto</title>
+</head>
+<body>
+    <p id="Texto">Asignación de contenido con el método text()</p>
+    <button id="Go">Empezar</button>
+</body>
+</html>

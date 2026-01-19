@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#Evento").click(function() {
+                $("#Con1").slideToggle(800, function() {
+                    alert("Evento slideToggle()");
+                });
+            });
+        });
+    </script>
+    <style>
+        #Con1 {
+            width: 400px;
+            height: 100px;
+            padding: 50px;
+            display: none;
+            background: rgba(255, 0, 0);
+        }
+    </style>
+    <title>Efecto SlideToggle</title>
+</head>
+<body>
+    <button id="Evento">Presiona aquí</button>
+    <div id="Con1">Método SlideToggle</div>
+</body>
+</html>

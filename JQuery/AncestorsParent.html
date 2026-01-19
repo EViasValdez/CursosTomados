@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        var texto = "";
+        $(document).ready(function(){
+          $("button").click(function(){
+            $("span").parent().css({"color": "blue", "border": "2px solid orange"});
+          });
+        });
+    </script>
+    <style>
+       .important {
+            display: block;
+            border: 2px solid lightgray;
+            color: grey;
+            padding: 5px;
+            margin: 5px
+       }
+    </style>
+    <title>Dimension</title>
+</head>
+<body>
+    <div class="important"> body (great great grandparent)
+        <div class="important" style="width:500px;"> div great/grandparent
+            <ul class="important"> ul grandparent
+                <li class="important"> li direct parent
+                    <span class="important">span</span>
+                </li>
+            </ul>
+        </div>
+    <button id="btn1">Probar</button>
+</body>
+</html>

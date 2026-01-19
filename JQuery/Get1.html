@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#Go").click(function(){
+                alert("input: " + $("#Texto").attr("id"))
+            });
+        });
+    </script>
+    <title>Callback</title>
+</head>
+<body>
+    <p id="texto">Se obtendrán con el método text()</p>
+    <button id="Go">Mostrar</button>
+</body>
+</html>

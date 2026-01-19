@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("button").click (function() {
+                $("#Con1").fadeTo("slow", 0.8);
+                $("#Con2").fadeTo("fast", 0.4);
+                $("#Con3").fadeTo(5000, 0.2);
+            })
+        });
+    </script>
+    <style>
+        #Con1 {
+            width: 100px;
+            height: 100px;
+            background: rgba(255, 0, 0);
+        }
+        #Con2 {
+            width: 100px;
+            height: 100px;
+            background: rgba(255, 247, 0);
+        }
+        #Con3 {
+            width: 100px;
+            height: 100px;
+            background: rgba(0, 0, 255);
+        }
+    </style>
+    <title>Efecto fade-to</title>
+</head>
+<body>
+    <h1>Se mostraran los contenedores</h1>
+    <button>Fade-to</button>
+    <br>
+    <br>
+    <div id="Con1"></div>
+    <div id="Con2"></div>
+    <div id="Con3"></div>
+</body>
+</html>

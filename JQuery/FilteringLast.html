@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("div p").last().css("background-color", "yellow");
+        });
+    </script>
+    <style>
+       .important *{
+            display: block;
+            border: 2px solid lightgray;
+            color: grey;
+            padding: 5px;
+            margin: 15px
+       }
+    </style>
+    <title>Filtering</title>
+</head>
+<body>
+    <h1>Bienvenido a mi pagina web</h1>
+
+    <p>Este es el primer parágrafo</p>
+
+    <div style="border: 1px solid black;">
+        <p>Primer parágrafo en un div</p>
+        <p>Ultimo parágrafo en un div</p>
+    </div><br>
+        <div style="border: 1px solid black;">
+        <p>Primer parágrafo en un div</p>
+        <p>Ultimo parágrafo en un div</p>
+    </div>
+
+    <p>Este es el ultimo parágrafo en body</p>
+</body>
+</html>

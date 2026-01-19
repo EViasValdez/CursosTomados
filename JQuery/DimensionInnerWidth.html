@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+              texto +="width de div: " + $("#important").width() + "<br>";
+              texto += "height del div: " + $("#important").height() + "<br>";
+              texto +="innerWidth de div: " + $("#important").innerWidth() + "<br>";
+              texto += "innerHeight del div: " + $("#important").innerHeight();
+              $("#important").html(texto);
+              console.log(texto);
+            }); 
+        }); 
+    </script>
+    <style>
+       #important {
+        width: 345px;
+        height: 200px;
+        padding: 20px;
+        margin: 7px;
+        border: 15px solid blue;
+        background-color: #ff0000;
+        color: white;
+       }
+    </style>
+    <title>Dimension</title>
+</head>
+<body>
+    <div id="important"></div>
+    <h2>$(selector).innerWidth(): <p>retorna el ancho de un elemento incluye también el padding</p></h2>
+    <h2>$(selector).innerHeight(): <p>retorna el alto de un elemento incluye también el padding</p></h2>
+    <button id="Boton">Probar</button>
+</body>
+</html>

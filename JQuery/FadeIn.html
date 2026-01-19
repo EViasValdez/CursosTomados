@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("button").click (function() {
+                $("#Con1").fadeIn();
+                $("#Con2").fadeIn("slow");
+                $("#Con3").fadeIn(5000);
+            })
+        });
+    </script>
+    <style>
+        #Con1 {
+            width: 100px;
+            height: 100px;
+            display: none;
+            background: rgba(255, 0, 0);
+        }
+        #Con2 {
+            width: 100px;
+            height: 100px;
+            display: none;
+            background: rgba(255, 247, 0);
+        }
+        #Con3 {
+            width: 100px;
+            height: 100px;
+            display: none;
+            background: rgba(0, 0, 255);
+        }
+    </style>
+    <title>Efecto fade-in</title>
+</head>
+<body>
+    <h1>Se mostraran los contenedores</h1>
+    <button>Fade-in</button>
+    <br>
+    <br>
+    <div id="Con1"></div>
+    <div id="Con2"></div>
+    <div id="Con3"></div>
+</body>
+</html>

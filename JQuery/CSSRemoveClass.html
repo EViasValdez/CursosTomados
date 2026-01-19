@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#Boton").click(function(){
+                $("h1, h2, p").removeClass(".blue");
+                // $("div").addClass("important")
+            });
+        });
+    </script>
+    <style>
+        .important {
+            font-weight: bold;
+            font-size: xx-large;
+        }
+        .blue {
+            color: blue;
+        }
+    </style>
+    <title>CSS</title>
+</head>
+<body>
+    <h1 class="blue">Cabecera</h1>
+    <h2 class="blue">Otra cabecera</h2>
+    <p class="blue">Párrafo de ejemplo</p>
+    <div>Contenedor</div>
+    <button id="Boton">Hacer Prueba</button>
+</body>
+</html>

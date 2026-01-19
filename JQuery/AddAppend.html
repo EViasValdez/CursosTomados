@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#Boton1").click(function(){
+                Dato2= $("input").val();
+                $("ul").append("<li>" + Dato2 + "</li>")
+            });
+        });
+    </script>
+    <style>
+        .Con1 {
+            position: absolute;
+            background: rgb(170, 187, 204);
+            left: 0px;
+            top: 30px;
+            width: 60px;
+            height: 60px;
+            margin: 5px;
+        }
+    </style>
+    <title>Add Append</title>
+</head>
+<body>
+    <ul>
+        <li>Insertar al final de este elemento abajo</li>
+    </ul>
+
+    <p>Introduce dato:<input id="dato" type="text" name="dato" value="dato"></p>
+    <button id="Boton1">Añadir dato a la lista</button>
+</body>
+</html>

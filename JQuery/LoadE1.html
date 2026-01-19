@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#Boton").click(function(event){
+                $("#Capa").load("Archivo.php #contenido");
+            });
+        });
+    </script>
+    <style>
+
+    </style>
+    <title>Load</title>
+</head>
+<body>
+    <div id="Capa">Pulsa el botón y el texto se actualizara</div>
+    <button id="Boton1">Actualizar</button>
+</body>
+</html>
