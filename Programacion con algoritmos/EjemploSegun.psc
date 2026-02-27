@@ -13,24 +13,24 @@ Proceso EjemploSegun
 	Escribir "R: Resta";
 	Escribir "M: Multiplicacion";
 	
-	Escribir Sin Saltar "¿Que operacion queres ejecutar?";
-	Escribir Sin Saltar "Escribe la letra en mayuscula o minuscula";
+	Escribir Sin Saltar "¿Que operacion quieres ejecutar?";
+	Escribir Sin Saltar "Escribe la letra en mayúscula o minúscula";
 	
 	Leer Operacion;
 	
 	Segun Operacion Hacer
 		'S','s':
-			// Aqui la suma.
+			// Aquí la suma.
 			Escribir "Has elegido la suma";
 			Escribir NumeroA, '+', NumeroB;
 			Escribir NumeroA+NumeroB;
 		'R','r':
-			// Aqui la resta.
+			// Aquí la resta.
 			Escribir "Has elegido la resta";
 			Escribir NumeroA, '-', NumeroB;
 			Escribir NumeroA-NumeroB;
 		'M','m':
-			// Aqui la multiplicacion.
+			// Aquí la multiplicacion.
 			Escribir "Has elegido la multiplicacion";
 			Escribir NumeroA, '*', NumeroB;
 			Escribir NumeroA*NumeroB;

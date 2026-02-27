@@ -7,7 +7,7 @@ Esta es una lista de cursos tomados durante todo este tiempo, algunos de ellos l
 <!----Notas---->
 **Notas:**
 
-**- Aun por ser puestas.**
+**- Aun por ser escritas.**
 <!----Separador de las notas---->
 
 <!----Directorio con descripción de los programas---->
