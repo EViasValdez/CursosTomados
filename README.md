@@ -8,7 +8,7 @@ Esta es una lista de cursos tomados durante todo este tiempo, algunos de ellos l
 **Notas:**
 **- Aun por ser escritas.**
 
-**- Todavía en planeación también.**
+**- Todavía esta en estado de creación también.**
 <!----Separador de las notas---->
 
 <!----Directorio con descripción de los programas---->
