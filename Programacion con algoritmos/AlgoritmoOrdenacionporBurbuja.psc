@@ -10,9 +10,9 @@ Subproceso OrdenarporBurbuja(Arreglo por Referencia, NElementos)
 	Definir Intercambiados como Logico;
 	Repetir
 		Intercambiados <- FALSO;
-		// Recorremos los valores del arreglo
+		// Recorremos los valores del arreglo.
 		Para i<-1 hasta NElementos-1 hacer
-			// Si el numero actual y el numero anterior están desordenados
+			// Si el numero actual y el numero anterior están desordenados.
 			Si Arreglo[i-1] > Arreglo[i] Entonces
 				IntercambiarValores(Arreglo, i-1, i);
 				Intercambiados <- VERDADERO;
