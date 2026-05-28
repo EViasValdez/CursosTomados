@@ -43,11 +43,11 @@ SubProceso JugarUnaRonda(puntos_j1 Por Referencia, puntos_pc Por Referencia, ron
 	// Mostramos la jugada
 	DibujarJugada(tirada_j1, tirada_pc);
 	
-	// Comprobar el resultado
-	// Si empate
+	// Comprobar el resultado.
+	// Empate.
 	Si (tirada_pc = tirada_j1) Entonces
 		Escribir "?Empate!";
-	// Si no hay empate uno de los ha ganado
+	// Uno de los dos gana.
 	Sino
 		Si ( (tirada_j1 = 1 Y tirada_pc = 3) O (tirada_j1=2 Y tirada_pc = 1) O (tirada_j1=3 Y tirada_pc = 2) )
 			Escribir "Ganas la ronda!";
