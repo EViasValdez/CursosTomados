@@ -13,7 +13,7 @@ Proceso EjemploSegun
 	Escribir "R: Resta";
 	Escribir "M: Multiplicacion";
 	
-	Escribir Sin Saltar "¿Que operacion quieres ejecutar?";
+	Escribir Sin Saltar "¿Que operación quieres ejecutar?";
 	Escribir Sin Saltar "Escribe la letra en mayúscula o minúscula";
 	
 	Leer Operacion;
@@ -35,6 +35,6 @@ Proceso EjemploSegun
 			Escribir NumeroA, '*', NumeroB;
 			Escribir NumeroA*NumeroB;
 		De Otro Modo:
-			Escribir "No has elegido la operacion correcta";
+			Escribir "No has elegido la operación correcta";
 	FinSegun
 FinProceso
