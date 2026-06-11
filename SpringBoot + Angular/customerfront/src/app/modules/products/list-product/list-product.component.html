@@ -1,0 +1,59 @@
+<mat-toolbar color="primary" class="header">
+    <span>List of Products</span>
+  </mat-toolbar>
+  
+  <table mat-table [dataSource]="dataSource" matSort>
+    <!-- ID Column -->
+    <ng-container matColumnDef="id">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> ID </th>
+      <td mat-cell *matCellDef="let element"> {{ element.id }} </td>
+    </ng-container>
+  
+    <!-- Name Column -->
+    <ng-container matColumnDef="name">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Name </th>
+      <td mat-cell *matCellDef="let element"> {{ element.name }} </td>
+    </ng-container>
+  
+    <!-- Actions Column -->
+    <ng-container matColumnDef="actions">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Actions </th>
+      <td mat-cell *matCellDef="let element">
+        <mat-icon
+          (click)="openDeleteModal(element.id)"
+          aria-hidden="false"
+          aria-label="delete icon"
+          fontIcon="delete"
+          class="action-icon"
+        >
+        </mat-icon>
+        <mat-icon
+          (click)="openEditModal(element)"
+          aria-hidden="false"
+          aria-label="edit icon"
+          fontIcon="edit"
+          class="action-icon"
+        >
+        </mat-icon>
+      </td>
+    </ng-container>
+  
+    <!-- Header and Row Definitions -->
+    <tr mat-header-row *matHeaderRowDef="columns"></tr>
+    <tr mat-row *matRowDef="let row; columns: columns;"></tr>
+  </table>
+  
+  <mat-paginator
+    class="center"
+    [pageSizeOptions]="[5, 10, 20]"
+    showFirstLastButtons
+  >
+  </mat-paginator>
+  
+  <mat-divider></mat-divider>
+  
+  <section class="center">
+    <button mat-flat-button color="primary" (click)="openEditModal(null)">Add Product</button>
+  </section>
+  
+  <mat-divider></mat-divider>  
