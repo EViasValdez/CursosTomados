@@ -1,5 +1,5 @@
 Proceso ParaConDiferentesSaltos
-	// Tambien se puede especificar un salto incremental diferente a 1 para cada iteracion.
+	// También se puede especificar un salto incremental diferente a 1 para cada iteracion.
 	Escribir "Para tradicional de 0 a 9 de 1 en 1";
 	Para i<-0 hasta 9
 		Escribir Sin Saltar i, " ";
@@ -23,7 +23,7 @@ Proceso ParaConDiferentesSaltos
 	Escribir "";
 	Escribir "";
 	
-	// Por supuesto tambien funciona con el para inverso
+	// Por supuesto también funciona con el para inverso
 	// Pero deberemos indicar el salto en negativo.
 	Escribir "Para inverso de 100 a 0 de -10 en -10";
 	Para i<-100 hasta 0 Con Paso -10

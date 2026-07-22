@@ -50,7 +50,7 @@ SubProceso JugarUnaRonda(puntos_j1 Por Referencia, puntos_pc Por Referencia, ron
 	// Uno de los dos gana.
 	Sino
 		Si ( (tirada_j1 = 1 Y tirada_pc = 3) O (tirada_j1=2 Y tirada_pc = 1) O (tirada_j1=3 Y tirada_pc = 2) )
-			Escribir "Ganas la ronda!";
+			Escribir "¡Ganas la ronda!";
 			puntos_j1 <- puntos_j1 + 1;
 		Sino
 			Escribir "Pierdes la ronda";
@@ -76,7 +76,7 @@ Proceso PiedraPapelTijeras
 		
 		// Iniciar el marcador a cero
 		// Iniciar las rondas a cero
-		// Y tambi?n limpiamos la pantalla
+		// Y también limpiamos la pantalla
 		puntos_j1 = 0;
 		puntos_pc = 0;
 		ronda = 0;
