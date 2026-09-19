@@ -16,7 +16,7 @@ Proceso Principal
 	n <- 1;
 	
 	Escribir "Doblamos n 5 veces, con n=",n;
-	// La funcion doblar toma el n?mero y le modifica su propio valor
+	// La función doblar toma el n?mero y le modifica su propio valor
 	Doblar(n);
 	Escribir n;
 	Doblar(n);

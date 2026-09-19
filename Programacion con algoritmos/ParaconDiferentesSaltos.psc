@@ -1,5 +1,5 @@
 Proceso ParaConDiferentesSaltos
-	// También se puede especificar un salto incremental diferente a 1 para cada iteracion.
+	// También se puede especificar un salto incremental diferente a 1 para cada iteración.
 	Escribir "Para tradicional de 0 a 9 de 1 en 1";
 	Para i<-0 hasta 9
 		Escribir Sin Saltar i, " ";
