@@ -5,7 +5,7 @@ Subproceso resultado<-Factorial(num)
 		resultado <- num * Factorial(num-1);
 	FinSi
 	// No comentar la siguiente linea.
-	Escribir num , "*Factorial(", num-1 ,") = ",resultado; 
+	Escribir num , "*Factorial(", num-1,") = ", resultado; 
 	// Ejecutar paso a paso para observar como hasta el final no se llega al "FinSi"
 	// Y entonces se sale de todos los "FinSi" de golpe, de dentro hacia afuera.
 FinSubProceso

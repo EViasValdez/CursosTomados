@@ -14,7 +14,7 @@ Proceso DefinicionAsignacion
 	Encontrado <- FALSO;
 	
 	// Lectura Y Escritura.
-	Escribir 'Introduce la nota';	
+	Escribir 'Introduce la nota';
 	Leer Nota;
 	Escribir 'Introduce la letra de dni';
 	Leer LetraDNI;
