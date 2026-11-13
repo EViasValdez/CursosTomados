@@ -15,12 +15,12 @@ Proceso BusquedaSecuencialEjemplo
 		Escribir Sin Saltar ArreglodeEnteros[i], ' ';
 	FinPara
 	Escribir '';
-	Escribir 'Introduce uno de los numeros que hay en el arreglo';
+	Escribir 'Introduce uno de los números que hay en el arreglo';
 	Leer NumeroUsuario;
 	
 	Para i<-0 hasta 4
 		Si NumeroUsuario = ArreglodeEnteros[i] Entonces
-			Escribir 'Se ha encontrado el numero ', NumeroUsuario, ' en la posicion ArreglodeEnteros[',i,']';
+			Escribir 'Se ha encontrado el numero ', NumeroUsuario, ' en la posición ArreglodeEnteros[',i,']';
 			Encontrado <- VERDADERO;
 		FinSi
 	FinPara
