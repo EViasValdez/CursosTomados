@@ -10,5 +10,5 @@ Proceso ProcesoPrincipal
 	Definir Maximo como Entero;
 	Maximo <- 5;
 	Saludar(Maximo);
-	Escribir 'Despues de ejecutar el subproceso Maximo vale: ', Maximo;
+	Escribir 'Después de ejecutar el subproceso "Maximo" vale: ', Maximo;
 FinProceso
